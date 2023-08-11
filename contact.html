@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accueil</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Inline&family=Oswald:wght@500&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/fc96222ba4.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="style/general.css">
+    <link rel="stylesheet" href="style/contact.css">
+</head>
+
+<body>
+    <header>
+        <div id="logo" class="ombreImg">
+            <a href="accueil.html">
+                <img src="assets/kisspng-clash-of-clans-clash-roy.png" alt="logo du jeu Clash of Clan">
+            </a>
+        </div>
+        <nav>
+            <div id="burgerImgContainer">
+                <i class="fa-solid fa-bars burgerIcon"></i>
+                <navbar class="burger">
+                    <div><a href="accueil.html">Accueil</a></div>
+                    <div><a href="troupes.html">Troupes</a></div>
+                    <div><a href="contact.html">Contact</a></div>
+                    <div><a href="#aPropos">A propos</a></div>
+                </navbar>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <!--* SECTION 1 -->
+        <section class="textColumn">
+            <h1>
+                Lorem ipsum
+            </h1>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse a fugiat repudiandae?
+                Temporibus facere dolor perspiciatis, similique sint dolore voluptatibus voluptas hic unde, molestias
+                explicabo facilis enim earum quia eum?
+            </p>
+            <a href="#formulaire">
+                <button class="buttonDisplay" type="button" value="Nous contacter">
+                    Nous contacter
+                </button>
+            </a>
+        </section>
+        <!--* SECTION 2 -->
+        <section>
+            <form action="get" id="formulaire">
+                <fielset>
+                    <label for="prenom">
+                        Votre prénom : *
+                        <input id="prenom" name="prenom" type="text" required />
+                    </label>
+                    <label for="nom">
+                        Votre nom : *
+                        <input id="nom" name="nom" type="text" required />
+                    </label>
+                    <label for="email">
+                        Votre email : *
+                        <input id="email" name="email" type="email" required />
+                    </label>
+                </fielset>
+                <fielset>
+                    <label for="sujet">Quel est le sujet de votre demande ?
+                        <select id="sujet" name="sujet">
+                            <option value="">(sélectionnez un sujet)</option>
+                            <option value="1">Mon compte</option>
+                            <option value="2">J'ai un problème avec mon identifiant</option>
+                            <option value="3">Je voudrais faire une demande de mot de passe</option>
+                            <option value="4">Autre</option>
+                        </select>
+                    </label>
+                    <label for="message">Votre message :
+                        <textarea id="message" name="message" rows="3" cols="30" placeholder="I like coding on the beach..."></textarea>
+                    </label>
+                </fielset>
+                <input id="submit" type="submit" value="Envoyer" />
+            </form>
+        </section>
+    </main>
+    <footer id="aPropos">
+        <div>
+            <div id="textContainer">
+                <p>Adresse: 84 Rue Paul Bert, 62300 Lens</p>
+                <p>Mail : <a href="mailto:louvrelensvallee@wanadoo.fr">louvrelensvallee@wanadoo.fr</a></p>
+                <p>Téléphone : 03 21 25 26 27</p>
+            </div>
+            <div id="iconesResaux">
+                <a href="https://www.facebook.com/POPSchoolFr/">
+                    <i class="fa-brands fa-facebook"></i>
+                </a>
+                <a href="https://www.instagram.com/popschoolfr/?hl=fr">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="https://fr.linkedin.com/company/popschoolp.l.u.s">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+            </div>
+        </div>
+        <div>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2541.5725659593663!2d2.8093462802622726!3d50.430434926023636!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47dd30f32995b9ed%3A0x227e61b83fe3bfcd!2sLouvre%20Lens%20Vall%C3%A9e!5e0!3m2!1sfr!2sfr!4v1691672755020!5m2!1sfr!2sfr"
+                width="450" height="400" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+        </div>
+    </footer>
+</body>
+
+</html>

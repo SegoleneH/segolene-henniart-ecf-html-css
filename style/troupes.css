@@ -1,0 +1,76 @@
+/* SECTION 1 */
+#superposition {
+    margin: 0 25vw;
+}
+
+#img2 {
+    position: relative;
+    top: -170px;
+    right: -260px;
+}
+
+#img3 {
+    position: absolute;
+    top: 700px;
+    left: 50px;
+}
+
+/* SECTION 2 */
+#service2 {
+    margin: 0 3vw;
+}
+
+.carte {
+    width: 27vw;
+    background-color: var(--penn-red);
+    border: solid var(--persimmon) 4px;
+    border-radius: 25px;
+    margin: 5vh auto;
+}
+
+.texteCarte {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.carte>img {
+    margin: 5% 25%;
+    width: 50%;
+    border-radius: 25px;
+    background-color: var(--rosewood);
+    box-shadow: var(--chocolate-cosmos) 0px 0px 3px 3px;
+}
+
+p {
+    margin: auto;
+}
+
+@media (max-width: 1023px) {
+    #service2 {
+        width: 70vw;
+        margin: 5vh auto;
+    }
+
+}
+
+@media (max-width: 767px) {
+    #service2 {
+        flex-direction: column;
+        margin: 5vh auto;
+    }
+    .carte{
+        width: 60vw;
+    }
+
+#img2 {
+    position: relative;
+    top: -100px;
+    right: -100px;
+}
+
+#img3 {
+    position: absolute;
+    top: 400px;
+}
+}
