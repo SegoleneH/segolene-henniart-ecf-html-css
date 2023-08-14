@@ -28,6 +28,9 @@ fieldset {
     border-bottom: 3px solid var(--violetClair);
     border-radius: 2px;
 }
+.buttonDisplay{
+    width: 200px;
+}
 
 fieldset:last-of-type {
     border-bottom: none;
