@@ -6,13 +6,15 @@ form {
     padding-bottom: 2em;
 }
 
-.buttonDisplay, #submit{
+.buttonDisplay,
+#submit {
     width: 190px;
     display: flex;
     flex-wrap: wrap;
     align-content: center;
     margin: 0 auto;
 }
+
 input,
 textarea,
 select {
@@ -22,13 +24,15 @@ select {
     border-radius: 10px;
     box-shadow: 0px 3px 4px var(--noir);
 }
+
 fieldset {
     border: none;
     padding: 2rem 0;
     border-bottom: 3px solid var(--violetClair);
     border-radius: 2px;
 }
-.buttonDisplay{
+
+.buttonDisplay {
     width: 200px;
 }
 
@@ -48,33 +52,37 @@ input[type="number"] {
 label[for="referrer"] {
     margin: 0 -4px 0 0;
 }
-select{
+
+select {
     padding: 8px 0;
 }
 
-h1{
+h1 {
     margin: 30vh auto 0 auto;
 }
 
-p{
+p {
     margin: 5vh auto;
 }
 
-@media (max-width: 1023px){
+@media (max-width: 1023px) {
     h1 {
         margin: 20vh auto 0 auto;
-        }
-    
-    p, #submit{
+    }
+
+    p,
+    #submit {
         margin: 10vh auto;
     }
 }
+
 @media (max-width: 767px) {
-    p{
+    p {
         width: 85vw;
     }
-    form{
+
+    form {
         margin: auto;
     }
-    
+
 }
